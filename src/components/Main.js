@@ -23,87 +23,105 @@ class Main extends React.Component {
       >
         <article
           id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          className={`${this.props.article === 'projects' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Projects</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
+          <h4>Prospect Plaice </h4>
+          <a href="https://github.com/mplayer78/prospect-plaice">Code</a>
+          <span> | </span>
+          <a href="https://prospect-plaice.netlify.app/">Depolyed</a>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Online ordering service for a local takeaway. Built in Gatsby over
+            the course of 48 hours and integrated with Stripe Checkout. Database
+            hosted on FaunaDB
           </p>
+
+          <br />
+          <h4>Svelte Todos</h4>
+          <a href="https://github.com/mplayer78/svelte-todo-list">Code</a>
+          <span> | </span>
+          <a href="https://mplayer-svelte-todos.netlify.app/">Depolyed</a>
+          <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            The ubiquitous todos app, built in Svelte and using the integrated
+            Svelte state-management
           </p>
+
+          <h4>Connect-N</h4>
+          <a href="https://github.com/mplayer78/ConnectN_mk2">Code</a>
+          <br />
+          <p>
+            A command-line version of connect-4 with recursive logic to check
+            for a game win. Demonstrates the use of Inheritance, Polymorphism &
+            Encapsulation. Part of the Computer Science MSc.
+          </p>
+
+          <h4>React eCalendar</h4>
+          <a href="https://github.com/mplayer78/eCalendar-react">Code</a>
+          <span> | </span>
+          <a href="https://ecalendar-react.netlify.app/">Depolyed</a>
+          <br />
+          <p>
+            A simple event tracker and calendar built as an SPA and utilising
+            the WebStorage API.
+          </p>
+          {/* <h4>Firerise Casestudy</h4> */}
+          {/* <a href="">Article</a>
+          <p>
+            Software Engineering coursework to design the software for drinks
+            vending machines installed on busses.
+          </p>
+
+          <br /> */}
           {close}
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="skills"
+          className={`${this.props.article === 'skills' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Skills</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <ul>
+            <li>Deep & comprehensive knowledge of Javascript</li>
+            <li>Deep & comprehensive knowledge of the React Library</li>
+            <li>Thorough understanding of the Angular Framework</li>
+            <li>Thorough understanding of the Svelte Library</li>
+            <li>Experience with REST and GraphQL Degisn Architectures</li>
+            <li>Thorough understanding of NodeJS</li>
+            <li>Prociciency in Java</li>
+            <li>Proficiency in Rust</li>
+            <li>Working Knowledge of Python</li>
+            <li>Exposure to WebAssembly</li>
+          </ul>
           {close}
         </article>
 
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="cv"
+          className={`${this.props.article === 'cv' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">CV Download Below</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          <a href="/src/assets/downloads/cv.pdf" download="cv.pdf">
+            Download
+          </a>
           {close}
         </article>
 

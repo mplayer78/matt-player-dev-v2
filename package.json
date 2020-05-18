@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
-  "version": "1.0.0",
-  "author": "Hunter Chang",
+  "name": "matt-player-dev",
+  "description": "Personal Portfolio Site for Matt Player, Developer.",
+  "version": "2.0.0",
+  "author": "Matthew Player",
   "dependencies": {
     "gatsby": "^2.19.5",
     "gatsby-plugin-manifest": "^2.2.38",
