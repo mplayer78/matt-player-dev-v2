@@ -32,14 +32,15 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
-          <h4>Prospect Plaice </h4>
-          <a href="https://github.com/mplayer78/prospect-plaice">Code</a>
+          <h4>ChowPronto </h4>
+          <a href="https://github.com/chingu-voyages/v19-bears-team-05">Code</a>
           <span> | </span>
-          <a href="https://prospect-plaice.netlify.app/">Depolyed</a>
+          <a href="https://chow-pronto-chingu.web.app/">Deployed</a>
           <p>
-            Online ordering service for a local takeaway. Built in Gatsby over
-            the course of 48 hours and integrated with Stripe Checkout. Database
-            hosted on FaunaDB
+            Proof of concept MVP built over the course of 6-weeks my a
+            multinational team. The App's USP is that not only can users order
+            from several different vendors in one place, but that a single order
+            can contain items from several suppliers.
           </p>
 
           <br />
